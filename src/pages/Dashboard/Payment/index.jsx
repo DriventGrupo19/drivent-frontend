@@ -1,3 +1,7 @@
+import PayOptions from "../../../components/TicketArea";
+
 export default function Payment() {
-  return 'Pagamento: Em breve!';
+  return(
+    <PayOptions />
+  )
 }
